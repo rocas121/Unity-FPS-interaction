@@ -1,2 +1,2 @@
 # Branch diagram
-![Interractions](readme-images/Interractions.png)
+![Interractions](readme-images/interactions.png)
