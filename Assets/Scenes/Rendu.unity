@@ -2384,6 +2384,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: ecdac2a9-0cd9-4827-990f-403c5dbde5b7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: 'Default/Leave[/Keyboard/escape]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 516633195}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Player_OnLeave
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Player, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382965226679702444, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4711471801094077923, guid: ce7813c2c7a61224e92696c9caa35898, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.36
