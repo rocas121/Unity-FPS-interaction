@@ -64,9 +64,19 @@ public class Player : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, rayDistance, interactionMask))
         {
+            //For toggle
             if (hit.collider.TryGetComponent(out InteractionToggleSetter interactionToggleSetter))
                 interactionToggleSetter.Interact();
+
         }
+    }
+
+    public void Player_OnLeave(CallbackContext context)
+    {
+        if (!context.performed) return;
+        Debug.Log("leaving");
+        Application.Quit();
+
     }
 
     public void Player_OnMove(CallbackContext context)
