@@ -71,6 +71,15 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Player_OnLeave(CallbackContext context)
+    {
+        if (!context.performed)
+            return;
+        Debug.Log("leaving");
+        Application.Quit();
+
+    }
+
     public void Player_OnMove(CallbackContext context)
     {
         if (!canMove) return;
